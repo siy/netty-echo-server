@@ -4,12 +4,10 @@ An Echo server built using Netty.
 
 ## Usage
 
-This project uses Gradle.
-
 ```
-$ gradle build
+$ ./mvnw package
 
-$ gradle run
+$ java -jar ./target/netty-echo-server-1.0-SNAPSHOT.jar
 ```
 
 Clients can telnet into server to get echo.
